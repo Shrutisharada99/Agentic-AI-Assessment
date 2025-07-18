@@ -1,0 +1,9 @@
+os
+dotenv
+openai
+asyncio
+autogen-agentchat
+pyautogen
+pyautogen[azure]
+autogen[ext]
+streamlit
