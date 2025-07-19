@@ -12,6 +12,6 @@ The app is deplyed and can be readily used at: https://agentic-ai-assessment-aut
 **Contents of repository:**
 -----------------------------
 
-1. **streamlit_deploy folder**: With main 'stream_docs.py' code that can be run on Streamlit and the requirements.txt file.
+1. **streamlit_deploy folder**: With main **stream_docs.py** Streamlit code and the **requirements.txt** file - ready for deployment.
 2. **.streamlit/sample_secrets.toml file** - Sample file to store secret variables to use in local enviroment for testing before deploying into Streamlit.
 3. **Use case Document** that consists of the problem statement, technical design and architecture and the system prompts engineered for the different agents in the multi-agent flow.
