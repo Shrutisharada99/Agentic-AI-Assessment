@@ -1,5 +1,4 @@
 os
-dotenv
 openai
 asyncio
 autogen-agentchat
