@@ -15,18 +15,15 @@ from dotenv import load_dotenv
 #autogen.logger.setLevel("ERROR")
 from autogen_agentchat.messages import AgentEvent, ChatMessage
 from autogen_agentchat.teams import SelectorGroupChat
-from dotenv import load_dotenv
 import streamlit as st
 
 # Variables and Function Definitions
 
-# Load Azure Model parameters
-load_dotenv()
-
-model = os.getenv("model")
-api_key = os.getenv("api_key")
-azure_url = os.getenv("azure_url")
-api_version = os.getenv("api_ver")
+# Load variables present in secrets.toml file or the secrets in UI of Streamlit
+model = st.secrets["model"]
+api_key = st.secrets["api_key"]
+azure_url = st.secrets["azure_url"]
+api_version = st.secrets["api_ver"]
 
 # Function to extract Full name of agent from the Agent Name
 def extract_full_name_from_agent_name(s):
