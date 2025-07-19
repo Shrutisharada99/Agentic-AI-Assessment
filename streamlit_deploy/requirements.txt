@@ -1,6 +1,6 @@
 asyncio
+autogen
 autogen-agentchat
-pyautogen
 pyautogen[azure]
 streamlit
 openai
