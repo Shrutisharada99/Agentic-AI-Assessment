@@ -7,6 +7,8 @@ It generates tailored documentations for three different personas:
 2. Executive Summary Agent
 3. API User Guide Agent
 
+The app is deplyed and can be readily used at: https://agentic-ai-assessment-autogen-multi-agents.streamlit.app/
+
 Contents of repository:
 
 1. streamlit_deploy folder: With main 'stream_docs.py' code that can be run on Streamlit and the requirements.txt file.
