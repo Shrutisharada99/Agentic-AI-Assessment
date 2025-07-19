@@ -3,9 +3,9 @@ Multi-Agent System for Persona-Driven Technical Documentation
 
 This repository consists of **Autogen + Streamlit + Deploy** code and Use Case Document of an autonomous multi-agent system that takes a single source of truth - **a Python function's docstring.**
 It generates tailored documentations for three different personas:
-1. Developer Documentation Agent
-2. Executive Summary Agent
-3. API User Guide Agent
+1. **Developer Documentation Agent**
+2. **Executive Summary Agent**
+3. **API User Guide Agent**
 
 The app is deplyed and can be readily used at: https://agentic-ai-assessment-autogen-multi-agents.streamlit.app/
 
