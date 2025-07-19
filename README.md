@@ -9,7 +9,8 @@ It generates tailored documentations for three different personas:
 
 The app is deplyed and can be readily used at: https://agentic-ai-assessment-autogen-multi-agents.streamlit.app/
 
-Contents of repository:
+**Contents of repository:**
+-----------------------------
 
 1. **streamlit_deploy folder**: With main 'stream_docs.py' code that can be run on Streamlit and the requirements.txt file.
 2. **.streamlit/sample_secrets.toml file** - Sample file to store secret variables to use in local enviroment for testing before deploying into Streamlit.
