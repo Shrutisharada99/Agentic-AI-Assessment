@@ -7,7 +7,7 @@ It generates tailored documentations for three different personas:
 2. **Executive Summary Agent**
 3. **API User Guide Agent**
 
-The app is deplyed and can be readily used at: https://agentic-ai-assessment-autogen-multi-agents.streamlit.app/
+The app is deployed and can be readily used at: https://agentic-ai-assessment-autogen-multi-agents.streamlit.app/
 
 **Contents of repository:**
 -----------------------------
